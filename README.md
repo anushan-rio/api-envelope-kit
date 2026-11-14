@@ -112,46 +112,4 @@ cd api-envelope-kit
 npm test
 ```
 
-## Publish to npm
 
-1. Create an npm account at <https://www.npmjs.com/signup>.
-2. In the package folder, run:
-
-   ```bash
-   npm login
-   ```
-
-   Enter credentials only in npm's private terminal prompt. Never put a password or token in source code.
-3. Check the package contents:
-
-   ```bash
-   npm pack --dry-run
-   ```
-4. Re-check that the package name is available:
-
-   ```bash
-   npm view api-envelope-kit version
-   ```
-
-   If npm returns a version, choose a different name and update `package.json` and this README.
-5. Publish the first version:
-
-   ```bash
-   npm publish --access public
-   ```
-
-6. Verify it:
-
-   ```bash
-   npm view api-envelope-kit version
-   npm install api-envelope-kit
-   ```
-
-Publishing is intentionally not done by this starter. It requires your npm sign-in and is an external release action.
-
-## Suggested next improvements
-
-- Add TypeScript declarations (`index.d.ts`).
-- Add an Express error middleware helper.
-- Add validation for allowed error codes.
-- Add a changelog before version `1.0.0`.
