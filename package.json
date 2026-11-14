@@ -1,0 +1,29 @@
+{
+  "name": "api-envelope-kit",
+  "version": "0.1.0",
+  "description": "Small, consistent response envelopes for Node.js APIs",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "api",
+    "http",
+    "response",
+    "pagination",
+    "error-handling"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
