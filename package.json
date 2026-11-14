@@ -1,7 +1,7 @@
 {
   "name": "api-envelope-kit",
   "version": "0.1.0",
-  "description": "Small, consistent response envelopes for Node.js APIs",
+  "description": "Standardize success, error, pagination, and metadata responses for Node.js and Express APIs.",
   "type": "commonjs",
   "main": "index.js",
   "exports": {
@@ -17,12 +17,26 @@
   },
   "keywords": [
     "api",
-    "http",
-    "response",
+    "api-response",
+    "response-envelope",
+    "success-response",
+    "error-response",
+    "error-handling",
     "pagination",
-    "error-handling"
+    "api-metadata",
+    "rest-api",
+    "nodejs",
+    "express",
+    "javascript",
+    "api-utils"
   ],
+  "author": "anushan_arc",
   "license": "MIT",
+  "homepage": "https://github.com/anushan-rio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anushan-rio/api-envelope-kit.git"
+  },
   "engines": {
     "node": ">=18"
   }
