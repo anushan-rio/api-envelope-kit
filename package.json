@@ -1,6 +1,6 @@
 {
   "name": "api-envelope-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standardize success, error, pagination, and metadata responses for Node.js and Express APIs.",
   "type": "commonjs",
   "main": "index.js",
